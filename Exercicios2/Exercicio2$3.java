@@ -18,6 +18,29 @@
 // // Saída
 // // Ordem decrescente: 4 >= 4
 
-// public class Exercicio2$3 {
-    
-// }
+import java.util.Scanner;
+
+public class Exercicio2$3 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        int num;
+        int num2;
+
+        System.out.print("Entre com um número:");
+        num = Integer.parseInt(scan.nextLine());
+
+        System.out.print("\nEntre com outro número:");
+        num2 = Integer.parseInt(scan.nextLine());
+
+        if(num<=num2){
+            System.out.print("Ordem decrescente: " + num2 + " >= " +num);
+        }
+        else{
+            System.out.print("Ordem decrescente: " + num + " >= " +num2);
+        }
+
+
+        scan.close();
+    }
+}
