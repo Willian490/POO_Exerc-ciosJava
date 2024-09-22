@@ -1,16 +1,7 @@
-// Exercício 2.4:
-// Escreva umprogramaquepeçaparaousuáriofornecertrêsnúmerosinteiros. O programadeve
-// exibir esses três números em ordem crescente.
-// Entrada
- //N1: 5
- //N2: 1
-//  N3: 9
-//  Saída
-//  1 <= 5 <= 9
 
 import java.util.Scanner;
 
-public class Exercicio2$4 {
+public class Exercicio2$5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -48,7 +39,7 @@ public class Exercicio2$4 {
             System.out.print("\n->>"+n1+","+n2+".");
         }
         
-        System.out.printf("\n\n%d <= %d <= %d", n1,n2, n3);
+        System.out.printf("\n\n%d >= %d >= %d", n3,n2, n1);
 
         scan.close();
     }
