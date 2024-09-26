@@ -39,14 +39,14 @@ public class Exercicio2$18 {
 
         double n1;
         double n2;
-        int op;
+        char caracter;
 
         System.out.println("Informe o primeiro valor:");
-        n1 = Integer.parseInt(scan.nextLine());
+        n1 = Double.parseDouble(scan.nextLine());
 
 
         System.out.println("Informe o segundo valor:");
-        n2 = Integer.parseInt(scan.nextLine());
+        n2 =Double.parseDouble(scan.nextLine());
 
 
         System.out.println("Escolha uma operacao de acordo com o menu:");
@@ -57,21 +57,21 @@ public class Exercicio2$18 {
                 );
 
             System.out.println("Operação:");
-            op =Integer.parseInt(scan.nextLine());
+            caracter = scan.nextLine().charAt(0);
 
-            switch(op){
-                case 1:
+            switch(caracter){
+                case '+':
                     System.out.printf(" %.2f + %.2f = %.2f",n1,n2, n1+n2);
                 break;
-                case 2:
+                case '-':
                     System.out.printf(" %.2f - %.2f = %.2f",n1,n2, n1-n2);                
                 break;
-                case 3:
+                case '*':
                     System.out.printf(" %.2f * %.2f = %.2f",n1,n2, n1*n2);
 
                 break;
                 
-                case 4:
+                case '/':
                     System.out.printf(" %.2f / %.2f = %.2f",n1,n2, n1/n2);
 
                 break;
