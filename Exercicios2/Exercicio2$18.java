@@ -78,7 +78,7 @@ public class Exercicio2$18 {
                 
 
                 default:
-            System.out.printf("Opção inválida" );
+                    System.out.printf("Opcao invalida!" );
                 break;
             }
 

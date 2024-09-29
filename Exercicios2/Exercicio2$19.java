@@ -41,7 +41,7 @@ public class Exercicio2$19 {
 
 
         switch (caracter) {
-            case 0:
+            case 'C':
                 System.out.println("Entre com a temperatura em graus Celsius:");
                 c = Double.parseDouble(scan.nextLine());
     
@@ -51,7 +51,7 @@ public class Exercicio2$19 {
         
             break;
         
-            default:
+            case 'F':
                 System.out.println("Entre com a temperatura em graus Fahrenheit:");
                 f = Double.parseDouble(scan.nextLine());
     
@@ -59,6 +59,10 @@ public class Exercicio2$19 {
             
                 System.out.printf("%.2f graus Fahrenheit correspondem a %.2f graus Celsius", f,c);
     
+            break;
+
+            default:
+                System.out.printf("Opcao invalida!");
             break;
         }
 
