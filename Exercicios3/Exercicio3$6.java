@@ -1,7 +1,7 @@
 package Exercicios3;
 
 import java.util.Scanner;
-public class Exercicio5$3 {
+public class Exercicio3$6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ public class Exercicio5$3 {
         num = Integer.parseInt(scan.nextLine());
 
         if(num>=0){
-            for(int i=0; i<=num; i++){
+            for(int i=num; i>=0; i--){
                 System.out.print(i + " ");
             }
         }

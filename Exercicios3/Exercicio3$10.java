@@ -1,7 +1,7 @@
 package Exercicios3;
 
 
-public class Exercicio10$3 {
+public class Exercicio3$10 {
     public static void main(String[] args) {
     
         for(int i=45; i<=60; i++){
