@@ -34,10 +34,10 @@ public class Exercicio4$5 {
 
 
         if(qntNumArray==1){
-            System.out.printf("\nO array tem %d ocorrencia do valor %d.", qntNumArray, buscarNumero);
+            System.out.printf("\nO array contem %d ocorrencia do valor %d.", qntNumArray, buscarNumero);
         }
         else if(qntNumArray>1){
-            System.out.printf("\nO array tem %d ocorrencias do valor %d.", qntNumArray, buscarNumero);
+            System.out.printf("\nO array contem %d ocorrencias do valor %d.", qntNumArray, buscarNumero);
         }
         else{
             System.out.printf("\nO array nao contem o valor %d.", buscarNumero);

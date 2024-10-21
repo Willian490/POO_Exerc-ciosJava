@@ -19,7 +19,7 @@ public class Exercicio4$12 {
 
             array[i] = array[i+1];
             
-            System.out.printf("\n\tarray[%d]: %d", i, array[i]);
+            System.out.printf("\narray[%d] = %d", i, array[i]);
         
         }
         

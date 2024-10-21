@@ -24,8 +24,9 @@ public class Exercicio4$2 {
             arrayMultiplicado[i] = array[i]*multiplicar;
         }
 
+        System.out.printf("\n");
         for(int i=0; i<array.length; i++ ){
-            System.out.printf("\n\narrayMult[%d] = ", i);
+            System.out.printf("\narrayMult[%d] = ", i);
             System.out.printf("%d", arrayMultiplicado[i]);
         }
 

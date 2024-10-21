@@ -48,9 +48,11 @@ public class Exercicio5$3{
                 arrayMultiplicada[x][j] = arrayNumero[x][j] *multiplicador;
                 
 
-                System.out.printf(" %03d ", arrayMultiplicada[x][j]);
+                System.out.printf("%03d", arrayMultiplicada[x][j]);
                 
-                
+                if(j!=3){
+                    System.out.printf(" ");
+                }
 
             }
         }

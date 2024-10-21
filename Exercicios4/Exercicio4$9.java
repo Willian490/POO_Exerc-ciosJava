@@ -24,7 +24,7 @@ public class Exercicio4$9 {
 
         for(int i=0; i<array.length; i++ ){
             
-            System.out.printf("\n\tarrayInv[%d] = %d",i, arrayTransposta[i]);
+            System.out.printf("\narrayInv[%d] = %d",i, arrayTransposta[i]);
         }
 
 

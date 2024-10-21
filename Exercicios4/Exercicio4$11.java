@@ -45,7 +45,7 @@ public class Exercicio4$11 {
         }
 
         for(int i=0; i<array.length; i++){
-            System.out.printf("\narray[%d] = %d ",i,array[i]);
+            System.out.printf("\narray[%d] = %d",i,array[i]);
         }
 
 

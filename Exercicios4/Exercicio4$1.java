@@ -19,8 +19,10 @@ public class Exercicio4$1 {
             arrayCubo[i] = array[i]*array[i]*array[i];
         }
 
+        System.out.printf("\n");
+
         for(int i=0; i<array.length; i++ ){
-            System.out.printf("\n\nArray Cubo[%d]:", i);
+            System.out.printf("\narrayCubo[%d] = ", i);
             System.out.printf("%d", arrayCubo[i]);
         }
 

@@ -27,7 +27,7 @@ public class Exercicio4$8 {
             }            
         }
 
-        System.out.print("\n\tNumeros pares:");
+        System.out.print("\nNumeros pares:");
         for(int i=0; i<array.length; i++ ){
          
             if(qntPar>0){
@@ -37,29 +37,38 @@ public class Exercicio4$8 {
                 }
             } 
             else{
-                System.out.print("nao ha.");
+                System.out.print(" nao ha.");
                 i=5;
             }                    
         }
 
+        if(qntPar>0){        
+            System.out.printf(".");                          
+        } 
 
 
 
-        System.out.print("\n\tNumeros Impares:");
+
+        System.out.print("\nNumeros impares:");
         for(int i=0; i<array.length; i++ ){
          
             if(qntImpar>0){
                 if(array[i]%2!=0){
-                    System.out.printf(" %d", arrayImpares[i]);
-                    
+                    System.out.printf(" %d", arrayImpares[i]);                    
                 }
             } 
             else{
-                System.out.print("nao ha.");
+                System.out.print(" nao ha.");
 
                 i=5;
             }                    
         }
+
+
+        if(qntImpar>0){        
+            System.out.printf(".");                          
+        } 
+
 
         scan.close();
     }    
