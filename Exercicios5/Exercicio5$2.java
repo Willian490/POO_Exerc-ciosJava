@@ -7,6 +7,7 @@ public class Exercicio5$2{
         int[][] arrayM1= new int[3][3];
         int[][] arrayM2= new int[3][3];
         int[][] arraySoma= new int[3][3];
+        int[] numeros = new int[5];
 
         System.out.println("Preencha a primeira matriz:");
 
