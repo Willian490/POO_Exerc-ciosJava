@@ -1,0 +1,130 @@
+[
+  {
+    "description": "Avaliação 1 - Turma 1",
+    "programmingLanguage": "JAVA",
+    "tests": [
+      {
+        "name": "Exercicio1",
+        "presentationName": "Exercício 1",
+        "testCases": [
+          {
+            "input": "7\n2",
+            "output": "Ordem crescente: 2 \u003c\u003d 7"
+          },
+          {
+            "input": "-2\n9",
+            "output": "Ordem crescente: -2 \u003c\u003d 9"
+          },
+          {
+            "input": "4\n4",
+            "output": "Ordem crescente: 4 \u003c\u003d 4"
+          }
+        ]
+      },
+      {
+        "name": "Exercicio2",
+        "presentationName": "Exercício 2",
+        "testCases": [
+          {
+            "input": "2\n10",
+            "output": "2 3 4 5 6 7 8 9 10"
+          },
+          {
+            "input": "30\n20",
+            "output": "30 29 28 27 26 25 24 23 22 21 20"
+          }
+        ]
+      },
+      {
+        "name": "Exercicio3",
+        "presentationName": "Exercício 3",
+        "testCases": [
+          {
+            "input": "-5\n50",
+            "output": "Somatorio entre -5 e 50: 1260"
+          },
+          {
+            "input": "80\n-10",
+            "output": "Somatorio entre -10 e 80: 3185"
+          }
+        ]
+      },
+      {
+        "name": "Exercicio4",
+        "presentationName": "Exercício 4",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n10\n-8\n5",
+            "output": "Indice 0: NAO ACHEI\nIndice 1: ACHEI\nIndice 2: NAO ACHEI\nIndice 3: NAO ACHEI\nIndice 4: NAO ACHEI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Avaliação 1 - Turma 2",
+    "programmingLanguage": "JAVA",
+    "tests": [
+      {
+        "name": "Exercicio1",
+        "presentationName": "Exercício 1",
+        "testCases": [
+          {
+            "input": "7\n2",
+            "output": "Ordem decrescente: 7 \u003e\u003d 2"
+          },
+          {
+            "input": "-2\n9",
+            "output": "Ordem decrescente: 9 \u003e\u003d -2"
+          },
+          {
+            "input": "4\n4",
+            "output": "Ordem decrescente: 4 \u003e\u003d 4"
+          }
+        ]
+      },
+      {
+        "name": "Exercicio2",
+        "presentationName": "Exercício 2",
+        "testCases": [
+          {
+            "input": "2\n10",
+            "output": "10 9 8 7 6 5 4 3 2"
+          },
+          {
+            "input": "30\n20",
+            "output": "20 21 22 23 24 25 26 27 28 29 30"
+          }
+        ]
+      },
+      {
+        "name": "Exercicio3",
+        "presentationName": "Exercício 3",
+        "testCases": [
+          {
+            "input": "-5\n5",
+            "output": "Produtorio entre -5 e 5: -14400"
+          },
+          {
+            "input": "6\n-2",
+            "output": "Produtorio entre -2 e 6: 1440"
+          }
+        ]
+      },
+      {
+        "name": "Exercicio4",
+        "presentationName": "Exercício 4",
+        "testCases": [
+          {
+            "input": "4\n5\n7\n5\n-8\n5",
+            "output": "O numero 5 foi encontrado 2 vez(es) no array."
+          },
+          {
+            "input": "4\n5\n7\n5\n-8\n10",
+            "output": "O numero 10 nao foi encontrado no array."
+          }
+        ]
+      }
+    ]
+  }
+]
