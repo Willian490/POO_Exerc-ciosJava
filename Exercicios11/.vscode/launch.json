@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TesteEmpregado",
+            "request": "launch",
+            "mainClass": "TesteEmpregado",
+            "projectName": "Exercicios8_287e7534"
+        },
+        {
+            "type": "java",
+            "name": "TesteRecibo",
+            "request": "launch",
+            "mainClass": "TesteRecibo",
+            "projectName": "Exercicios8_287e7534"
+        },
+        {
+            "type": "java",
+            "name": "TesteVaga",
+            "request": "launch",
+            "mainClass": "TesteVaga",
+            "projectName": "Exercicios8_287e7534"
+        }
+    ]
+}
