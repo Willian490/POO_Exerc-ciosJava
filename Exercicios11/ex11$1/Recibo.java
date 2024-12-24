@@ -1,46 +1,44 @@
-public class Recibo{
+public class Recibo {
 
     private String identificador;
     private String descricao;
     private int quantidade;
     private double precoVenda;
 
-    public Recibo (String identificador, String descricao, int quantidade, double precoVenda){
-        this.identificador  = identificador;
-        this.descricao  = descricao;
+    public Recibo(String identificador, String descricao, int quantidade, double precoVenda) {
+        this.identificador = identificador;
+        this.descricao = descricao;
 
-        if(quantidade<=0){
-            this.quantidade = 1;    
-        }
-        else{
+        // Ajuste da quantidade
+        if (quantidade <= 0) {
+            this.quantidade = 1;
+        } else {
             this.quantidade = quantidade;
         }
-        if(precoVenda <0){
-            this.precoVenda = 0;
 
-        }
-        else{
+        // Ajuste do preço
+        if (precoVenda < 0) {
+            this.precoVenda = 0.0;
+        } else {
             this.precoVenda = precoVenda;
         }
-
     }
 
-
-    public double getValorTotal(){
+    public double getValorTotal() {
         return quantidade * precoVenda;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         String retorno =
             """
             Recibo:
-            id= %s
-            quantidade = %d
-            preco = R%.2f
-            valor total = R%.2f
+                id = %s
+                descricao = %s
+                quantidade = %d
+                preco = R$%.2f
+                valor total = R$%.2f
             """;
-               return String.format(retorno, identificador, descricao, quantidade, precoVenda, getValorTotal() );
+        return String.format(retorno, identificador, descricao, quantidade, precoVenda, getValorTotal());
     }
-
 }

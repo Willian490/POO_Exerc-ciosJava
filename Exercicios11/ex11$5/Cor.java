@@ -55,11 +55,7 @@ public class Cor{
     public String toString(){
         String retorno =
         """
-        
-        Cor: rgb( %d, %d, %d );        
-        
-        
-        """;
+        rgb( %d, %d, %d )                """;
 
 
         return String.format(retorno,cor1,cor2,cor3);

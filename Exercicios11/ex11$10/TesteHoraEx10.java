@@ -1,4 +1,4 @@
-public class TesteHora{
+public class TesteHoraEx10{
    
     public static void main(String[] args){
         

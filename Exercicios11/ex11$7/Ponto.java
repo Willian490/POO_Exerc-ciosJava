@@ -24,7 +24,7 @@ public class Ponto{
 
     @Override
     public String toString(){
-        return String.format("[%.2f; y=%.2f]",x,y);
+        return String.format(" [x=%.2f;y=%.2f]",x,y);
     }
 
 

@@ -6,10 +6,10 @@ public class TestePonto{
 
         System.out.println("Ponto 1:"+p1);
         
-        System.out.println("Ponto 1:"+p2);
+        System.out.println("Ponto 2:"+p2);
        
         Double distancia=p1.getDistancia(p2);
 
-        System.out.printf("Distância entre os pontos: %.2f\n", distancia);
+        System.out.printf("Distancia entre os pontos: %.2f\n", distancia);
     }
 }

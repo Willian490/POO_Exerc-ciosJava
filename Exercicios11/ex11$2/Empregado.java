@@ -2,6 +2,7 @@ public class Empregado{
     String nome;
     String sobrenome;
     double salarioMensal;
+    double salarioMaior;
 
     public Empregado (String nome, String sobrenome, double salarioMensal){
         this.nome = nome;
@@ -12,10 +13,12 @@ public class Empregado{
             this.salarioMensal = 0.0;
 
         }
+
+        concederAumento();
     }
 
     public void concederAumento(){
-        salarioMensal = salarioMensal*1.1;
+        salarioMaior = salarioMensal*1.1;
 
     }
 
@@ -26,16 +29,24 @@ public class Empregado{
     public String toString(){
         String retorno = 
         """
-        Funcionário:
-            nome: %s,
-            sobrenome: %s,
-            salario: %.2f
+        Empregado:
+            nome = %s
+            sobrenome = %s
+            salario = R$%.2f
+        Aumentando o salario...
+        Empregado:
+            nome = %s
+            sobrenome = %s
+            salario = R$%.2f
                 """;
     
         return String.format(retorno,
             nome,
             sobrenome,
-            salarioMensal
+            salarioMensal, 
+            nome,
+            sobrenome,
+            salarioMaior
         );
     }
 
