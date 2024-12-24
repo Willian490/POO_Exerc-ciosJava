@@ -23,14 +23,15 @@ public class Cor{
         if(cor3>=255){
             this.cor3=255;
         }
-        if(cor1>0 ||cor1<255){
+        
+        if(cor1>=0 ||cor1<=255){
             this.cor1 = cor1;
         }
-        if(cor2>0 ||cor2<255){
+        if(cor2>=0 ||cor2<=255){
             this.cor2 = cor2;
         }
 
-        if(cor3>0 ||cor3<255){
+        if(cor3>=0 ||cor3<=255){
             this.cor3 = cor3;
         }
     }

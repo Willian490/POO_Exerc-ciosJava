@@ -30,6 +30,10 @@ public class Vaga{
 
             valorhoras= 2+(acimahoras*0.5);
 
+            if(valorhoras>10.00){
+                valorhoras=10.00;
+            }
+
             return valorhoras;            
         }
         else if(qnthoras>=24){

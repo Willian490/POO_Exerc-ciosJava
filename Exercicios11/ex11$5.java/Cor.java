@@ -38,17 +38,29 @@ public class Cor{
         }
     }
 
-    // public Cor escurecer(){
-    //     cor1escura=cor1*0.7;
-    //     cor2escura=cor2*0.7;
-    //     cor3escura=cor3*0.7;
-    // }
+
+    public Cor escurecer() {
+        // Multiplica cada componente por 0.7 e retorna um novo objeto com os valores ajustados
+        
+        //     cor1escura= (int) (this.cor1*0.7); //truncamento
+
+        return new Cor(
+            (int) (this.cor1 * 0.7),
+            (int) (this.cor2 * 0.7),
+            (int) (this.cor3 * 0.7)
+        );
+    }
+
     @Override
     public String toString(){
         String retorno =
         """
+        
         Cor: rgb( %d, %d, %d );        
-        Cor escurecida: rgb ( %d, %d, %d)       """;
+        
+        
+        """;
+
 
         return String.format(retorno,cor1,cor2,cor3);
             
