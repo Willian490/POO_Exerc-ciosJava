@@ -1,0 +1,102 @@
+[
+    {
+        "description": "Avaliação 2 - Turma 1",
+        "programmingLanguage": "JAVA",
+        "tests": [
+            {
+                "name": "questao1/TesteEmpregado$OR$TesteEmpregado",
+                "presentationName": "Questão 1",
+                "testCases": [
+                    {
+                        "input": "joao\nda silva\n2000",
+                        "output": "Empregado:\n    nome = joao\n    sobrenome = da silva\n    salario = R$2000.00\nAumentando o salario...\nEmpregado:\n    nome = joao\n    sobrenome = da silva\n    salario = R$2200.00"
+                    }
+                ]
+            },
+            {
+                "name": "questao2/TesteCor$OR$TesteCor",
+                "presentationName": "Questão 2",
+                "testCases": [
+                    {
+                        "input": "50\n60\n70",
+                        "output": "Cor: rgb( 50, 60, 70 )"
+                    },
+                    {
+                        "input": "-10\n-10\n-10",
+                        "output": "Cor: rgb( 0, 0, 0 )"
+                    },
+                    {
+                        "input": "260\n180\n280",
+                        "output": "Cor: rgb( 255, 180, 255 )"
+                    }
+                ]
+            },
+            {
+                "name": "questao3/TesteCorEscurecer$OR$TesteCorEscurecer",
+                "presentationName": "Questão 3",
+                "testCases": [
+                    {
+                        "input": "255\n180\n90",
+                        "output": "Cor base: rgb( 255, 180, 90 )\nCor escurecida: rgb( 178, 125, 62 )"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "Avaliação 2 - Turma 2",
+        "programmingLanguage": "JAVA",
+        "tests": [
+            {
+                "name": "questao1/TesteEmpregado$OR$TesteEmpregado",
+                "presentationName": "Questão 1",
+                "testCases": [
+                    {
+                        "input": "joao\nda silva\n2000",
+                        "output": "Empregado:\n    nome = joao\n    sobrenome = da silva\n    salario = R$2000.00\nDiminuindo o salario...\nEmpregado:\n    nome = joao\n    sobrenome = da silva\n    salario = R$1800.00"
+                    }
+                ]
+            },
+            {
+                "name": "questao2/TesteCor$OR$TesteCor",
+                "presentationName": "Questão 2",
+                "testCases": [
+                    {
+                        "input": "50\n60\n70",
+                        "output": "Cor: rgb( 50, 60, 70 )"
+                    },
+                    {
+                        "input": "-10\n-10\n-10",
+                        "output": "Cor: rgb( 0, 0, 0 )"
+                    },
+                    {
+                        "input": "260\n180\n280",
+                        "output": "Cor: rgb( 255, 180, 255 )"
+                    }
+                ]
+            },
+            {
+                "name": "questao3/TesteCorClarear$OR$TesteCorClarear",
+                "presentationName": "Questão 3",
+                "testCases": [
+                    {
+                        "input": "10\n30\n40",
+                        "output": "Cor base: rgb( 10, 30, 40 )\nCor clareada: rgb( 14, 42, 57 )"
+                    },
+                    {
+                        "input": "0\n0\n0",
+                        "output": "Cor base: rgb( 0, 0, 0 )\nCor clareada: rgb( 3, 3, 3 )"
+                    },
+                    {
+                        "input": "1\n2\n1",
+                        "output": "Cor base: rgb( 1, 2, 1 )\nCor clareada: rgb( 4, 4, 4 )"
+                    },
+                    {
+                        "input": "100\n150\n230",
+                        "output": "Cor base: rgb( 100, 150, 230 )\nCor clareada: rgb( 142, 214, 255 )"
+                    }
+                ]
+            }
+        ]
+    }
+]
