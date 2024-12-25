@@ -20,13 +20,13 @@ public class Ponto{
             return y;
         }
 
-        public void setY(int x){
+        public void setY(int y){
             this.y=y;
         }
 
         @Override
         public String toString(){
-            return String.format("Ponto criado: (%d, %d)", x,y);
+            return String.format("\nPonto criado: (%d; %d)", x,y);
         }
 
 }

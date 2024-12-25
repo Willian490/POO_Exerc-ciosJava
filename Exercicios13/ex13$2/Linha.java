@@ -28,7 +28,7 @@ public class Linha {
 
     @Override
     public String toString(){
-        return p1 + "  ---"+ p2;
+        return p1 + " ------"+ p2;
     }
 
 

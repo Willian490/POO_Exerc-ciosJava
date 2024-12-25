@@ -26,7 +26,7 @@ public class Ponto{
 
         @Override
         public String toString(){
-            return String.format(" (%d, %d)", x,y);
+            return String.format(" (%d; %d)", x,y);
         }
 
 }

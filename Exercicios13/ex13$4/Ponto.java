@@ -1,4 +1,4 @@
-public public class Ponto {
+public class Ponto {
     private int x;
     private int y;
 

@@ -1,4 +1,4 @@
-public public class Retangulo {
+public class Retangulo {
     private Ponto p1; // Ponto superior esquerdo
     private Ponto p2; // Ponto inferior direito
 
@@ -31,20 +31,20 @@ public public class Retangulo {
         this.p2 = p2;
     }
 
-    // Método para calcular a área do retângulo
+    
     public double calcularArea() {
         int largura = p2.getX() - p1.getX();
         int altura = p2.getY() - p1.getY();
         return largura * altura;
     }
 
-    // Método toString para representar o retângulo
+    
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(p1.toString()).append("\n");
         sb.append("|").append("=".repeat(14)).append("|\n");
-        for (int i = 0; i < 2; i++) { // Simulação de altura
+        for (int i = 0; i < 2; i++) {
             sb.append("|").append(" ".repeat(14)).append("|\n");
         }
         sb.append("|").append("=".repeat(14)).append("|\n");
